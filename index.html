@@ -4,22 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Odin Recipes</title>
+  <link rel="stylesheet" href="style.css">
+  <title>EZ Recipes</title>
 </head>
 <body>
-  <h1>Odin Recipes</h1>
-  <p>Easy recipes <strong>anyone</strong> can make. Coming from a bachelor who can't cook!</p>
-  <ul>
-    <li>
-      <a href="./recipes/ribs.html">Baby Back Ribs</a>
-    </li>
-    <li>
-      <a href="./recipes/salmon.html">Salmon and Asparagus in Foil</a>
-    </li>
-    <li>
-      <a href="./recipes/steak.html">Sirloin Steak</a>
-    </li>
+  <h1 class="page-title">EZ Recipes</h1>
+  <p class="description"><em>Recipes <strong>anyone</strong> can make.</em></p>
+  <hr />
+  <div class="recipe-container">
+   <ul class="no-list-style no-padding">
+      <li class="recipe-preview">
+          <a href="./recipes/ribs.html">
+            <img src="./images/ribs.jpg" alt="Baby Back Ribs">
+          </a>
+          <p>Baby Back Ribs</p>
+      </li>
 
-  </ul>
+      <li class="recipe-preview">
+        <a href="./recipes/salmon.html">
+          <img src="./images/salmon.jpg" alt="Salmon">
+        </a>
+        <p>Salmon and Asparagus in Foil</p>
+      </li>
+
+      <li class="recipe-preview">
+        <a href="./recipes/steak.html">
+          <img src="./images/steak.jpg" alt="Sirlion Steak">
+        </a>
+        <p>Sirloin Steak</p>
+      </li>
+  
+    </ul>
+  </div>
 </body>
 </html>
