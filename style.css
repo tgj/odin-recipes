@@ -96,12 +96,14 @@ body {
   padding: 0;
 }
 
+.recipe,
 .recipe-preview {
   margin: 2rem;
   position: relative;
 }
 
 @media only screen and (max-width: 600px) {
+  .recipe img,
   .recipe-preview img {
     width: 100%;
     height: auto;
@@ -109,14 +111,17 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
+  .recipe img,
   .recipe-preview img {
     width: 600px;
     height: auto;
   }
 }
 
+.header a:link,
 .recipe-preview a:link {
   text-decoration: none;
+  color: #FFF;
 }
 
 .recipe-preview p {
